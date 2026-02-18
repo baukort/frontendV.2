@@ -1,0 +1,43 @@
+<!-- ===== MENÚ SUPERIOR ===== -->
+<div class="topbar">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+    <div class="lang">ESP&nbsp;&nbsp;ENG</div>
+
+    <button
+      class="navbar-toggler custom-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#menuOverlay"
+      aria-controls="menuOverlay"
+      aria-expanded="false"
+      aria-label="Abrir menú"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+</div>
+
+<!-- ===== MENÚ OVERLAY LATERAL ===== -->
+<div class="collapse menu-overlay" id="menuOverlay">
+  <button
+    class="menu-close"
+    data-bs-toggle="collapse"
+    data-bs-target="#menuOverlay"
+    aria-label="Cerrar menú"
+  >
+    ✕
+  </button>
+
+  <ul class="menu-overlay-list text-end">
+    <li><a routerLink="/">INICIO</a></li>
+    <li><a routerLink="/proyectos">PROYECTOS</a></li>
+    <li><a routerLink="/estudio">ESTUDIO</a></li>
+    <li><a routerLink="/novedades">NOTICIAS</a></li>
+    <li><a routerLink="/contacto">CONTACTO</a></li>
+  </ul>
+
+  <div class="menu-overlay-footer">
+    <p>INSTAGRAM · PINTEREST · FACEBOOK</p>
+    <p>YOUTUBE · TWITTER · LINKEDIN</p>
+  </div>
+</div>
